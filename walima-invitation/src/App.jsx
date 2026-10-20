@@ -64,7 +64,6 @@ function Celebration({ onSave, saved }) {
     <div className="celebration-inner">
       <RevealGroup className="celebration-intro">
         <motion.div className="courtyard-reveal" variants={{ hidden: { clipPath: reduced ? 'inset(0)' : 'inset(0 100% 0 0)', opacity: 0.3 }, visible: { clipPath: 'inset(0 0% 0 0)', opacity: 1, transition: { duration: reduced ? 0 : 1.4, ease: [0.22, 1, 0.36, 1] } } }}><CourtyardDrawing className="courtyard" /></motion.div>
-        <RevealItem as="span" className="eyebrow courtyard-caption">{wedding.city} · A little heritage, a lot of heart</RevealItem>
       </RevealGroup>
       <Reveal className="stationery-wrap" delay={0.12}>
         <article className="stationery paper" aria-label="Walima invitation details">

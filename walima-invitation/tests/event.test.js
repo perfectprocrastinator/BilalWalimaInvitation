@@ -19,7 +19,7 @@ test('calendar contains the exact names, location, stable identifier, and valid 
   const first = createCalendarEvent(wedding, new Date('2026-10-16T10:00:00Z'));
   const second = createCalendarEvent(wedding, new Date('2026-10-17T10:00:00Z'));
   const content = unfold(first);
-  assert.match(content, /SUMMARY:Bilal Ahmad & Imama ALI — Walima\r\n/);
+  assert.match(content, /SUMMARY:Bilal Ahmad & Imama Ali — Walima\r\n/);
   assert.ok(content.includes('LOCATION:Kalyan Mandap\\, Vikas Nagar\\, Lucknow\r\n'));
   assert.equal(content.match(/UID:.+/)[0], unfold(second).match(/UID:.+/)[0]);
   assert.equal(first.replace(/\r\n/g, '').includes('\n'), false);

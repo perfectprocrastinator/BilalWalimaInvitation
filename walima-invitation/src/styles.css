@@ -145,7 +145,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 400; }
 .celebration-intro h2 em { color: #d7c49d; }
 .celebration-intro > p:not(.eyebrow) { font-size: 12px; color: #d0dacb; line-height: 2.1; }
 .courtyard { color: #b8a474; width: 100%; height: auto; opacity: .73; margin: 55px 0 15px; }
-.celebration-intro .courtyard-caption { display: block; color: #bec7ac; font-size: 7px; letter-spacing: .16em; text-align: center; }
+
 .stationery { position: relative; padding: 43px 34px 38px; text-align: center; color: #294939; box-shadow: 0 15px 35px #051a1629; }
 .stationery-border { position: absolute; inset: 12px; border: 1px solid #b7a06a80; pointer-events: none; }
 .stationery-border::before { content: ''; position: absolute; inset: 5px; border: 1px solid #b7a06a40; }
@@ -214,7 +214,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 400; }
   .countdown-note { font-size: 17px; max-width: 275px; margin: 28px auto 0; }.celebration-message { font-size: 27px; }
   .celebration-section { padding: 58px 30px 40px; }.celebration-section::before { inset: 9px; }
   .celebration-inner { grid-template-columns: 1fr; gap: 34px; max-width: 490px; }.celebration-intro { text-align: center; }.celebration-intro h2 { font-size: 41px; margin: 21px 0; }.celebration-intro > p:not(.eyebrow) { font-size: 11px; }
-  .courtyard { max-width: 380px; margin: 35px auto 7px; }.celebration-intro .courtyard-caption { font-size: 6px; }
+  .courtyard { max-width: 380px; margin: 35px auto 7px; }
   .stationery { padding: 35px 30px 32px; }.stationery h2 { font-size: 66px; }.stationery-flourish { margin-bottom: 16px; }.stationery address span { font-size: 29px; }.event-actions { grid-template-columns: 1fr 1fr; gap: 8px; }
   .event-actions .button { font-size: 10px; gap: 6px; padding: 11px 7px; }.event-actions .icon { width: 15px; height: 15px; }.stationery-note { font-size: 16px; }
   .closing-section { padding: 73px 32px 60px; }.closing-section > div > .eyebrow { font-size: 8px; }.closing-flourish { margin-bottom: 26px; }.closing-section h2 { font-size: 35px; max-width: 450px; }.closing-message { font-size: 11px; }.closing-signature { font-size: 40px; }
@@ -257,7 +257,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 400; }
 .countdown-note { color: #696d52; }
 .celebration-intro > .eyebrow { font-size: 10px; }
 .celebration-intro > p:not(.eyebrow) { font-size: 14px; }
-.celebration-intro .courtyard-caption { font-size: 8px; }
+
 .stationery .eyebrow { font-size: 10px; }
 .stationery-date p:last-child, .stationery address { font-size: 14px; }
 .event-actions .button { font-size: 12px; }
@@ -278,7 +278,7 @@ h1, h2, h3 { font-family: var(--font-serif); font-weight: 400; }
   .countdown-unit .eyebrow { font-size: 9px; }
   .countdown-note { font-size: 19px; max-width: 310px; }
   .celebration-intro > p:not(.eyebrow) { font-size: 14px; }
-  .celebration-intro .courtyard-caption { font-size: 8px; line-height: 2; }
+  
   .event-actions { grid-template-columns: 1fr; gap: 10px; }
   .event-actions .button, .mobile-actions .button { font-size: 13px; min-height: 50px; gap: 9px; }
   .closing-message { font-size: 14px; }.site-footer .eyebrow { font-size: 9px; }

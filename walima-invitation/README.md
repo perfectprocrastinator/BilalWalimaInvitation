@@ -1,6 +1,6 @@
 # Moonlit Courtyard of Lucknow
 
-A complete React invitation for the Walima of **Bilal Ahmad & Imama ALI**, on **27 December 2026 at 7:00 PM IST**, at **Kalyan Mandap, Vikas Nagar, Lucknow**.
+A complete React invitation for the Walima of **Bilal Ahmad & Imama Ali**, on **27 December 2026 at 7:00 PM IST**, at **Kalyan Mandap, Vikas Nagar, Lucknow**.
 
 Built with React, Vite, Tailwind CSS, and Framer Motion. The design uses an animated ivory envelope, a Mughal arch, original SVG jasmine and embroidery ornaments, and a deep emerald celebration section. It needs no backend or API keys.
 

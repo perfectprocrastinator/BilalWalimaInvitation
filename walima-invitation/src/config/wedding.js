@@ -1,7 +1,7 @@
 /** Edit the invitation's event details and wording here. */
 export const wedding = {
   groom: 'Bilal Ahmad',
-  bride: 'Imama ALI',
+  bride: 'Imama Ali',
   shortNames: 'Bilal & Imama',
   monogram: 'B & I',
   occasion: 'Walima',
@@ -21,8 +21,8 @@ export const wedding = {
   },
   calendarUid: 'bilal-ahmad-imama-ali-walima-20261227',
   calendarFileName: 'Bilal-and-Imama-Walima.ics',
-  pageTitle: 'Bilal Ahmad & Imama ALI | Walima · 27 December 2026',
-  pageDescription: 'Together with their families, Bilal Ahmad and Imama ALI invite you to their Walima on 27 December 2026 at 7:00 PM IST, Kalyan Mandap, Vikas Nagar, Lucknow.',
+  pageTitle: 'Bilal Ahmad & Imama Ali | Walima · 27 December 2026',
+  pageDescription: 'Together with their families, Bilal Ahmad and Imama Ali invite you to their Walima on 27 December 2026 at 7:00 PM IST, Kalyan Mandap, Vikas Nagar, Lucknow.',
   copy: {
     arabic: 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
     translation: 'In the name of Allah, the Most Merciful, the Most Compassionate',
