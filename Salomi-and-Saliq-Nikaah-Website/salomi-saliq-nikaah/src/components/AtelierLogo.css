@@ -1,0 +1,78 @@
+.atelier-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  min-width: 44px;
+  min-height: 62px;
+  color: var(--color-rose, #8c3b61);
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.atelier-logo__crest {
+  display: block;
+  width: 50px;
+  height: 62.5px;
+  flex: 0 0 auto;
+  overflow: visible;
+}
+
+.atelier-logo__gold { color: var(--color-gold, #a55e78); }
+.atelier-logo__outline { stroke-width: .85; }
+.atelier-logo__inset { stroke-width: .55; opacity: .58; }
+.atelier-logo__moon { stroke-width: .6; fill: currentColor; fill-opacity: .13; }
+.atelier-logo__botanical { stroke-width: .7; fill: currentColor; fill-opacity: .035; }
+
+.atelier-logo__initial {
+  fill: currentColor;
+  font-family: var(--font-serif, 'Cormorant Garamond', Georgia, serif);
+  font-weight: 400;
+  font-size: 39px;
+  letter-spacing: -.06em;
+}
+
+.atelier-logo__initial--second { font-size: 36px; }
+.atelier-logo__joining-stroke {
+  stroke: var(--color-gold, #a55e78);
+  stroke-width: .65;
+  stroke-linecap: round;
+  opacity: .8;
+}
+
+.atelier-logo__wordmark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding-top: 1px;
+  white-space: nowrap;
+}
+
+.atelier-logo__names {
+  font-family: var(--font-serif, 'Cormorant Garamond', Georgia, serif);
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: -.025em;
+  line-height: 1;
+}
+
+.atelier-logo__occasion {
+  color: var(--color-gold, #a55e78);
+  font-family: var(--font-sans, 'Manrope', Arial, sans-serif);
+  font-size: 7px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: .31em;
+  text-transform: uppercase;
+}
+
+.atelier-logo--compact { min-height: 58px; }
+.atelier-logo--compact .atelier-logo__crest { width: 46px; height: 57.5px; }
+.atelier-logo--compact .atelier-logo__wordmark { display: none; }
+
+@media (max-width: 600px) {
+  .atelier-logo { min-height: 58px; }
+  .atelier-logo__crest { width: 46px; height: 57.5px; }
+  .atelier-logo__wordmark { display: none; }
+}
